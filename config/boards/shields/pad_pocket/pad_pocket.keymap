@@ -73,14 +73,14 @@
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <225>;
+            tapping-term-ms = <200>;
             bindings = <&kp C_VOLUME_DOWN>, <&kp C_PREVIOUS>, <&go_to_bluetooth_layer>;
         };
 
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <225>;
+            tapping-term-ms = <200>;
             bindings = <&kp C_VOLUME_UP>, <&kp C_NEXT>, <&studio_unlock>;
         };
 
