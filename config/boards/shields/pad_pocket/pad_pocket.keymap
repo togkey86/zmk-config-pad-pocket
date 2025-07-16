@@ -76,6 +76,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <275>;
             bindings = <&kp C_VOLUME_DOWN>, <&kp C_PREVIOUS>, <&go_to_bluetooth_layer>;
+            display-name = "Media Controls Left";
         };
 
         td1: tap_dance_1 {
@@ -83,6 +84,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <275>;
             bindings = <&kp C_VOLUME_UP>, <&kp C_NEXT>, <&studio_unlock>;
+            display-name = "Media Controls Right";
         };
 
         td2: tap_dance_2 {
@@ -90,13 +92,15 @@
             #binding-cells = <0>;
             tapping-term-ms = <275>;
             bindings = <&kp LEFT_ARROW>, <&kp C_NEXT>, <&go_to_bluetooth_layer>;
+            display-name = "Page Turner Controls Left";
         };
 
-        td3: tap_dance_3 {
+        td3: tap_dance_ {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <275>;
             bindings = <&kp RIGHT_ARROW>, <&kp C_NEXT>, <&studio_unlock>;
+            display-name = "Page Turner Controls Right";
         };
 
         my_mt: bluetooth_layer {
