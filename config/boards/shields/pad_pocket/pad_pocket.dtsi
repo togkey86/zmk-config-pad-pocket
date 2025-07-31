@@ -13,7 +13,7 @@
         wakeup-source;
 
 
-        row-gpios = <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+        row-gpios = <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
     };
 
